@@ -1,0 +1,69 @@
+<html>
+<head>
+	<script src="js/jquery-3.1.0.min.js"> </script>
+	<script src="js/script.js"> </script>
+  <link rel="stylesheet" href="css/css.css" type="text/css">
+</head>
+<body>
+<h1><center>Censo</center></h1>
+	<form>
+    <div  class="divverde"><center></center></div>
+         Propietario de la casa: <input type="text" name="nombre">
+        <br>
+       Genero:<br>
+      <input type="radio" name="genero" value="hombre">Hombre<br>
+        <input type="radio" name="genero" value="mujer">Mujer<br>
+        <br>
+<ol>
+         <ul><li> La casa es:</li> </ul><div>
+          <li>  <input type="radio" name="casa" value="arrendada" >Arrendada</li>
+         <li><input type="radio" name="casa" value="Prestada" >Prestada</li>
+         <li><input type="radio" name="casa" value="prop" >Propia</li>
+         <li><input type="radio" name="casa" value="rent" >Rentada</li>
+       <ul>  
+      <li> Numero de cuartos<input type="text" name="nombre"></li>
+     </ul>
+     </ol>
+     </div>
+        <hr>
+        <div  class="divverde">
+        <p>Datos</p>
+        </div>
+        Nombre<input type="text" name="mayores_edad">
+        Sexo<input type="text" name="mayores_edad">
+        Edad:<input type="text" name="mayores_edad"> Profecion u ocupacion:<input type="text" name="mayores_edad"> 
+        Situacion Economica:<input type="text" name="mayores_edad">
+        Estado civil:<input type="text" name="mayores_edad"> 
+       
+        <div  class="divverde">
+        Vivienda:
+        </div>
+        Tiene:<br>
+              <input type="radio" name="piso" value="arrendada" >Piso tierra
+         <input type="radio" name="piso" value="Prestada" >Piso cemeto
+       <hr>
+       <p>Servicios<p>
+       Agua Potable<input type="checkbox"  value="1" name="vivienda"> 
+       Luz<input type="checkbox" name="vivienda" value="1">  
+        Drenaje<input type="checkbox" name="vivienda" value="1">  
+          <br><hr>  
+          Vive con mas personas     <br>
+             Si  <input type="checkbox" name="mayor_edad" value="1" id="mayoria_edad"> No <input type="checkbox" name="mayor_edad" value="1" id="nomas">
+             
+        <div id="formulariomayores" style="display: none;">
+     Cuantos viven en la casa:<input type="text" name="mayores_edad"> <br>
+     Cuantos de ellos trabajan:<input type="text" name="mayores_edad"> 
+       Numero de mujeres :<input type="text" name="mayores_edad"> 
+            Numero de hombres :<input type="text" name="mayor_edad" id="mayoria_edad"><br><br> 
+        <input  placeholder="Anotaciones"  name="anotaciones" id="anotacion"><br>
+          <input type="submit"   name="anotaciones" id="anotacion"> 
+                    
+        </div>
+          <div id="finboton" style="display: none;"><br>
+             <input  placeholder="Anotaciones"  name="anotaciones" id="anotacion"><br>
+           <input type="submit"  name="anotaciones" id="anotacion">
+          </div>
+    </form>
+    <footer>Jeicel Perez Zapata</footer>
+</body>
+</html>
